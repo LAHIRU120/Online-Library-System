@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lk.ijse.ols</groupId>
-    <artifactId>online-library-system</artifactId>
+    <artifactId>Online-Libaray-System</artifactId>
     <version>1.0.0</version>
 
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

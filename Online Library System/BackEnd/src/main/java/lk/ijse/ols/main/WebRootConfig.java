@@ -15,7 +15,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
-import java.sql.DriverManager;
 
 @Configuration
 @PropertySource("classpath:application.properties")
