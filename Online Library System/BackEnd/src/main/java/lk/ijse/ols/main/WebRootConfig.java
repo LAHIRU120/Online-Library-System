@@ -15,7 +15,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
-import java.sql.DriverManager;
 
 @Configuration
 @PropertySource("classpath:application.properties")
@@ -30,7 +29,7 @@ public class WebRootConfig {
         LocalContainerEntityManagerFactoryBean emfb = new LocalContainerEntityManagerFactoryBean();
         emfb.setDataSource(ds);
         emfb.setJpaVendorAdapter(jpaVendorAdapter);
-        emfb.setPackagesToScan("lk.ijse.edu.pos.entity");
+        emfb.setPackagesToScan("lk.ijse.ols.entity");
         return emfb;
     }
 
